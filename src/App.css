@@ -1,0 +1,10 @@
+#root {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+}
+
+.page-container {
+  padding: 12px;
+  width: 100%;
+}

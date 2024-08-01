@@ -1,0 +1,41 @@
+.cross-minus-form {
+    position: relative;
+}
+
+.cross-minus-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cross-minus-textarea {
+    height: 100%;
+    border: 1px solid #aaa;
+    padding: 8px;
+    border-radius: 4px;
+    resize: none;
+}
+
+.cross-minus-textarea.cross-minus-duplicate {
+    border-color: #ec2b2b;
+}
+
+.cross-minus-textarea:focus,
+.cross-minus-textarea:active{
+    outline: none;
+    border: 1px solid #84c0ea;
+}
+
+.cross-minus-clean {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 12px;
+    height: 40px;
+    border: 2px solid #ec2b2b;
+    background: #ec2b2b;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
